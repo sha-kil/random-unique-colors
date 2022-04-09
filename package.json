@@ -1,11 +1,12 @@
 {
-  "name": "random-colors",
+  "name": "n-random-colors",
   "version": "1.0.0",
   "description": "",
   "main": "dist/app.js",
   "scripts": {
     "predev": "cp hooks/pre-commit .git/hooks/ && chmod +x .git/hooks/pre-commit",
     "dev": "nodemon",
+    "prod": "tsc --project tsconfig.json",
     "test": "jest"
   },
   "keywords": [],
